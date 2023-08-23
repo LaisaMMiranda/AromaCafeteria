@@ -1,0 +1,172 @@
+/* Fonts */
+@font-face {
+  font-family: "Alata";
+  src: url("Alata-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Baloo2";
+  src: url("Baloo2.ttf");
+}
+
+@font-face {
+  font-family: "IBM";
+  src: url("IBM.ttf");
+}
+
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  background-color: #B08968;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+.header {
+  background-color: #4D2B1E;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.menu-item {
+  color: #4D2B1E; /* Set the text color for menu items */
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* Pedido Styles */
+.rectangle {
+  background-color: #CE9468;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.item img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 10px;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.observations {
+  background-color: #EDE0D4;
+  padding: 10px;
+  color: #000000;
+  font-weight: bold;
+  margin-top: 10px;
+  border-radius: 10px;
+  resize: none;
+  height: 80px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.total {
+  background-color: #CE9468;
+  padding: 10px;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.checkout {
+  background-color: #4D2B1E;
+  color: #FFFFFF;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+/* Home Section Styles */
+.home {
+  width: 100%;
+  height: 100vh;
+  background-image: url(fundo.png);
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+}
+
+.home-text h1 {
+  color: #4D2B1E;
+  font-size: 60px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  font-family: 'Lobster', cursive;
+}
+
+.home-text p {
+  color: #292929;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 23px 0;
+}
+
+.home-img {
+  display: flex;
+  justify-content: center;
+}
+
+.home-img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #4D2B1E;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* No seu arquivo de estilo CSS */
+.form-check-label a {
+  color: inherit; /* Para manter a cor do texto padrão */
+  text-decoration: none; /* Remove o sublinhado */
+}
+
+.form-check-label a:hover {
+  /* Define um estilo para quando o mouse estiver sobre o link */
+  text-decoration: underline; /* Pode ser "none" para remover o sublinhado no hover */
+}
+
+/* Other Styles... */
